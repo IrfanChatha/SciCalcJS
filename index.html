@@ -95,9 +95,7 @@
         function calculate() {
             let result = document.getElementById("result").value;
 
-            // Try-Catch concept comes in Error-Handling Concept
-
-            try {   // We write code in try in which chances of error are greater.
+            try {
                 let answer = eval(result);
                 document.getElementById("result").value = answer;
             } catch (error) {
